@@ -5,8 +5,10 @@ What is NEW compared to 01 and 02
   same greedy CART algorithm (in optimised C code). With the same criterion
   and max_depth, their scores should be close to ours. Small differences come
   from tie-breaking between equally good splits.
-- From here on (see the Ensemble-Methods repository) we can use the fast
-  library trees as building blocks.
+- This is the only file in the repository that uses scikit-learn; the trees
+  in model.py are written from scratch. The Ensemble-Methods repository
+  builds its bagging, random forests and boosting on a from-scratch copy of
+  these trees as well.
 
 Run: python 03_sklearn_comparison.py --task clf
      python 03_sklearn_comparison.py --task reg
