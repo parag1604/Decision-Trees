@@ -6,7 +6,7 @@ Code for classification and regression trees (CART) written from scratch in nump
 
 ## Theory
 
-Lecture notes for this topic are coming soon on https://parag1604.github.io/notes
+Please note that the theory corresponding to the codes is hosted on this [page](https://parag1604.github.io/notes/Machine-Learning/Decision-Trees-and-Ensembles) (the sections on classification and regression trees, impurity and pruning).
 
 ## Python Environment Setup
 
